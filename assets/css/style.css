@@ -1,0 +1,14 @@
+/*Asterisk Wildcard Selectror to override defualt styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header styles */
+header {background-color: lightcoral;}
+
+/*Main content styles */
+main {background-color: lightblue;}
+
+/*Footer styles */   
+footer {background-color: lightgreen;}
