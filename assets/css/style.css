@@ -21,7 +21,7 @@ body {
 /*Header styles */
 header {
   background-color: #ffffff;
-  padding: 0;
+ padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -29,18 +29,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-}
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
 }
 
 header a {
@@ -78,11 +66,25 @@ nav {
     top: 100%;
 }
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*Main content styles */
 main {
   background-color: lightblue;
   /*Make main element fill the remaining space */
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 /*Footer styles */
